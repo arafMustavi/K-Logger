@@ -1,0 +1,12 @@
+Implementation Plan:
+
+- Create the Key Logger
+
+- Create the exe file
+
+- Create a TKinter Based GUI
+
+
+Development so Far:
+
+January 13 : KeyLogger as a python file is complete

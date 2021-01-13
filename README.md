@@ -1,6 +1,6 @@
-# B-Logger
+# K-Logger
 
-Key press Logger Tool using Python
+Basic Key press Logger Tool using Python
 
 
 ## Packages and Dependencies
